@@ -1,13 +1,20 @@
-| <img src="https://github.com/autchen/autchen.github.io/blob/master/sleepy_cats.jpg?raw=true" height="100" width="100"/> | Ph.D. Candidate <br> [Department of Electrical Engineering and Computer Science](http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/) <br> [Syracuse University](http://www.syr.edu/) <br> Office: Science&Technology Center 4-226, Syracuse University <br> Address: 50 Presidential Plz 2006, Syracuse, NY, 13202 <br> Email: qchen14 (at) syr (dot) edu |
-| ------------- | ------------- |
+---
+title: Home
+layout: default
+---
+
+| <img src="resources/images/sleepy_cats.jpg" height="150" width="165"/> | Ph.D. Candidate <br> [Department of Electrical Engineering and Computer Science](http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/) <br> [Syracuse University](http://www.syr.edu/) <br> Office: Science&Technology Center 4-226, Syracuse University <br> Address: 50 Presidential Plz 2006, Syracuse, NY, 13202 <br> Email: qchen14 (at) syr (dot) edu |
+
+<br>
 
 ### PROFILE
 I am currently a research assistant at the AMPS Lab at Syracuse University. My advisor is [Dr. Qinru Qiu](http://hydrogen.syr.edu/~qqiu/). Generally, my research interests are machine learning, cognitive applications and high performance computing on heterogeneous systems. In particular, I am working on anomaly detections using neuromorphic models as well as their acceleration and scalability. 
 
 ### EDUCATION
-* Ph.D. in Computer Engineering, Syracuse University, Present **GPA: 4.0/4.0**
+* Ph.D. in Computer Engineering, Syracuse University, Present
 * M.S. in Electrical Engineering, [Beijing University of Posts & Telecoms](http://www.bupt.edu.cn/) (BUPT), 2012
-* B.S. in Electrical Engineering, BUPT & [Queen Mary University of London](http://www.qmul.ac.uk/), 2009 **First class honours degree**
+* B.S. in Electrical Engineering, BUPT & [Queen Mary University of London](http://www.qmul.ac.uk/), 2009  
+First class honours degree
 
 ### RESEARCH PROJECTS
 **Neuromorphic framework for real-time anomalous stream detection**   
