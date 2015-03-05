@@ -7,6 +7,8 @@ layout: default
 
 <br>
 
+[Profile](#profile), [Education](#education), [Research Projects](#research-projects), [Internship](#internships), [Publications](#publications), [Other Projects](#other-projects)
+
 ### PROFILE
 I am currently a research assistant at the AMPS Lab at Syracuse University. My advisor is [Dr. Qinru Qiu](http://hydrogen.syr.edu/~qqiu/). Generally, my research interests are machine learning, cognitive applications and high performance computing on heterogeneous systems. In particular, I am working on anomaly detections using neuromorphic models as well as their acceleration and scalability. 
 
