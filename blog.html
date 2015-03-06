@@ -8,6 +8,13 @@ permalink: /blog/
 
   <h1 class="page-heading">Posts</h1>
 
+  Categories:
+  {% for cat in site.categories %}
+    <a href="{{ cat | first | prepend: site.baseurl }}">{{ cat | first }}</a>
+  {% endfor %}
+
+  <p></p>
+
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
