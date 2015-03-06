@@ -7,7 +7,7 @@ categories: guides
 
 This plugin package is mainly configured for developing C/C++ project. Therefore many setup may not be as convenient for all-purpose editing.
 
-For impatience, downloads [here]({{ site.baseurl }}/resources/tools/_vim.tar.gz).
+For impatience, downloads [here](https://github.com/autchen/autchen.github.io/blob/master/resources/tools/_vim.tar.gz?raw=true).
 
 The following are the details of the package.
 
