@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Qiuwen-Homepage
 layout: default
 ---
 
@@ -36,10 +36,10 @@ Software Engineer: Developed and maintained wireless network elements management
 Baseband R&D Engineer: Developed a TD-LTE downlink demo platform and conducted system integration tests. Designed and programmed baseband processing modules and an on-chip protocol stack.
 
 ### PUBLICATIONS
-1. **Qiuwen Chen**, Qinru Qiu, Qing Wu, Morgan Bishop, and Mark Barnell, "A Confabulation Model for Abnormal Vehicle Events Detection in Wide-Area Traffic Monitoring", CogSIMA'2014.
-2. Q. Wu, B. Liu, Y. Chen, H. Li, **Qiuwen Chen** and Qinru Qiu, "Bio-Inspired Computing with Resistive Memories - Models, Architectures and Applications", ISCAS'2014.
-3. Hao Shen, **Qiuwen Chen** and Qinru Qiu, "Battery Aware Stochastic QoS Boosting in Mobile Computing Devices", DATE'2014.
-4. **Qiuwen Chen**, Qinru Qiu, Hai Li and Qing Wu, "A Neuromorphic Architecture for Anomaly Detection in Autonomous Large-Area Traffic Monitoring", ICCAD'2013.
+1. **Qiuwen Chen**, Qinru Qiu, Qing Wu, Morgan Bishop, and Mark Barnell, "A Confabulation Model for Abnormal Vehicle Events Detection in Wide-Area Traffic Monitoring", CogSIMA'2014. [pdf](http://hydrogen.syr.edu/~qqiu/papers/CogSIMA2014.pdf)
+2. Q. Wu, B. Liu, Y. Chen, H. Li, **Qiuwen Chen** and Qinru Qiu, "Bio-Inspired Computing with Resistive Memories - Models, Architectures and Applications", ISCAS'2014. [pdf](http://hydrogen.syr.edu/~qqiu/papers/ISCAS2014.pdf)
+3. Hao Shen, **Qiuwen Chen** and Qinru Qiu, "Battery Aware Stochastic QoS Boosting in Mobile Computing Devices", DATE'2014. [pdf](http://hydrogen.syr.edu/~qqiu/papers/DATE2014-mobile.pdf)
+4. **Qiuwen Chen**, Qinru Qiu, Hai Li and Qing Wu, "A Neuromorphic Architecture for Anomaly Detection in Autonomous Large-Area Traffic Monitoring", ICCAD'2013. [pdf](http://hydrogen.syr.edu/~qqiu/papers/ICCAD2013.pdf)
 5. **Qiuwen Chen**, Z. Wu, Hao Jin, "A Multi-user Cooperation Scheme based on Component Demodulation", ICCTA'2011.
 6. **Qiuwen Chen**, "Enhanced Turbo Network Coding with Additional Error Protection by Hybrid Iterative Decoding", ICCSN'2011.
 

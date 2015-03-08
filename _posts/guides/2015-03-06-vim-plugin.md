@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "My Vim plugin collection"
+title:  "Vim plugin collection for development"
 date:   2015-03-06 14:03:06
 categories: guides
 ---
 
 This plugin package is mainly configured for developing C/C++ project. Therefore many setup may not be as convenient for all-purpose editing.
 
-For impatience, downloads [here](https://github.com/autchen/autchen.github.io/blob/master/resources/tools/_vim.tar.gz?raw=true).
+For impatience, downloads [here](https://github.com/autchen/autchen.github.io/blob/master/resources/tools/_vim.tar.gz?raw=true). Unpack it, _vimrc is the configuration file, and _vim folder contains the plugins. This package requires **vim7.3** or higher, otherwise some options have to be disabled. For Windows, place the files in the vim installation folder; for linux/unix, rename them to .vimrc and .vim, and place them in your home directory.
 
 The following are the details of the package.
 
