@@ -36,21 +36,21 @@ Software Engineer: Developed and maintained wireless network elements management
 Baseband R&D Engineer: Developed a TD-LTE downlink demo platform and conducted system integration tests. Designed and programmed baseband processing modules and an on-chip protocol stack.
 
 ### PUBLICATIONS
-1. **Qiuwen Chen**, Qinru Qiu, Qing Wu, Morgan Bishop, and Mark Barnell, "A Confabulation Model for Abnormal Vehicle Events Detection in Wide-Area Traffic Monitoring", CogSIMA'2014. [pdf](http://hydrogen.syr.edu/~qqiu/papers/CogSIMA2014.pdf)
-2. Q. Wu, B. Liu, Y. Chen, H. Li, **Qiuwen Chen** and Qinru Qiu, "Bio-Inspired Computing with Resistive Memories - Models, Architectures and Applications", ISCAS'2014. [pdf](http://hydrogen.syr.edu/~qqiu/papers/ISCAS2014.pdf)
-3. Hao Shen, **Qiuwen Chen** and Qinru Qiu, "Battery Aware Stochastic QoS Boosting in Mobile Computing Devices", DATE'2014. [pdf](http://hydrogen.syr.edu/~qqiu/papers/DATE2014-mobile.pdf)
-4. **Qiuwen Chen**, Qinru Qiu, Hai Li and Qing Wu, "A Neuromorphic Architecture for Anomaly Detection in Autonomous Large-Area Traffic Monitoring", ICCAD'2013. [pdf](http://hydrogen.syr.edu/~qqiu/papers/ICCAD2013.pdf)
-5. **Qiuwen Chen**, Z. Wu, Hao Jin, "A Multi-user Cooperation Scheme based on Component Demodulation", ICCTA'2011.
-6. **Qiuwen Chen**, "Enhanced Turbo Network Coding with Additional Error Protection by Hybrid Iterative Decoding", ICCSN'2011.
+1. **Qiuwen Chen**, Qinru Qiu, Qing Wu, Morgan Bishop, and Mark Barnell, "A Confabulation Model for Abnormal Vehicle Events Detection in Wide-Area Traffic Monitoring", CogSIMA'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3265&authkey=!ADQHeHMSR5-wmO0&ithint=file%2cpdf)
+2. Q. Wu, B. Liu, Y. Chen, H. Li, **Qiuwen Chen** and Qinru Qiu, "Bio-Inspired Computing with Resistive Memories - Models, Architectures and Applications", ISCAS'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3268&authkey=!ACiVk_KEeN4zHAQ&ithint=file%2cpdf)
+3. Hao Shen, **Qiuwen Chen** and Qinru Qiu, "Battery Aware Stochastic QoS Boosting in Mobile Computing Devices", DATE'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3269&authkey=!APj99oDhh_Jneys&ithint=file%2cpdf)
+4. **Qiuwen Chen**, Qinru Qiu, Hai Li and Qing Wu, "A Neuromorphic Architecture for Anomaly Detection in Autonomous Large-Area Traffic Monitoring", ICCAD'2013. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3270&authkey=!AHVWAC2oTla_E3E&ithint=file%2cpdf)
+5. **Qiuwen Chen**, Z. Wu, Hao Jin, "A Multi-user Cooperation Scheme based on Component Demodulation", ICCTA'2011. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3266&authkey=!ANVG-RIklHd7W8s&ithint=file%2cpdf)
+6. **Qiuwen Chen**, "Enhanced Turbo Network Coding with Additional Error Protection by Hybrid Iterative Decoding", ICCSN'2011. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3267&authkey=!AACW7Jc4CU0PXao&ithint=file%2cpdf)
 
 ### OTHER PROJECTS
-**Cross-proximity probabilistic modeling of actor behavior:** designed a link prediction algorithm for dynamic social networks based on a dual hidden Markov model (HMM) coupled with diversified influence factors.
+**Cross-proximity probabilistic modeling of actor behavior:** designed a link prediction algorithm for dynamic social networks based on a dual hidden Markov model (HMM) coupled with diversified influence factors. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3272&authkey=!AJ834RwxkOOf5rk&ithint=file%2cpdf)
 
 **Malware detection from system call sequences:** developed and evaluated learning based models such as replicator neural network, CFA and Bayesian net on identifying malicious programs.
 
-**GPU acceleration of BCJR algorithm:** originated an augmented parallel algorithm that exploits the thread level parallelism. Verified the performance gain on GPUs.
+**GPU acceleration of BCJR algorithm:** originated an augmented parallel algorithm that exploits the thread level parallelism. Verified the performance gain on GPUs. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3271&authkey=!AL4quwNIdHNAc4s&ithint=file%2cpdf)
 
-**Resource usage prediction for cloud data center:** built a confabulation based statistic prediction model for virtual machine resource consumptions (clock cycles, memory, networks).
+**Resource usage prediction for cloud data center:** built a confabulation based statistic prediction model for virtual machine resource consumptions (clock cycles, memory, networks). [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3273&authkey=!AMRQN410LntXkQw&ithint=file%2cpdf)
 
 **VLSI computer aided design:** Implemented software with GUIs for a set of CAD algorithms: layout optimization, GORDIAN placement, simulated annealing, etc.
 
