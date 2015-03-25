@@ -52,7 +52,7 @@ Baseband R&D Engineer: Developed a TD-LTE downlink demo platform and conducted s
 
 **Resource usage prediction for cloud data center:** built a confabulation based statistic prediction model for virtual machine resource consumptions (clock cycles, memory, networks). [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3273&authkey=!AMRQN410LntXkQw&ithint=file%2cpdf)
 
-**VLSI computer aided design:** Implemented software with GUIs for a set of CAD algorithms: layout optimization, GORDIAN placement, simulated annealing, etc.
+**VLSI computer aided design:** Implemented software with GUIs for a set of CAD algorithms: layout optimization, GORDIAN placement, simulated annealing, etc. [src](http://github.com/autchen/vlsi-cad)
 
 **Joint coding modulation diversity:** Focused on adapting hybrid diversity techniques to aid wireless transmissions in fading channels. Designed a turbo receiver which harvests signal space diversity and coding gain jointly. Implemented a testbed on PicoChip many-core system.
 
