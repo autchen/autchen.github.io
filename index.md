@@ -56,7 +56,7 @@ Baseband R&D Engineer: Developed a TD-LTE downlink demo platform and conducted s
 
 **Joint coding modulation diversity:** Focused on adapting hybrid diversity techniques to aid wireless transmissions in fading channels. Designed a turbo receiver which harvests signal space diversity and coding gain jointly. Implemented a testbed on PicoChip many-core system.
 
-**Multi-user signal space cooperation:** Developed a wireless cooperation scheme in uplink transmissions. Designed a 4D component demodulation method that enables multiple users exploiting path diversity in a cross-layered manner.
+**Multi-user signal space cooperation:** Developed a wireless cooperation scheme in uplink transmissions. Designed a 4D component demodulation method that enables multiple users exploiting path diversity in a cross-layered manner. [src](https://github.com/autchen/ssc-4d)
 
 **Microcontroller-based Contour Mapper:** hardware & software co-design of a conceptual sensor robot that collects coordinate information and plot the contour map.
 
