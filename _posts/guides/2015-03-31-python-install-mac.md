@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python and package installation on MAC"
-date:   2015-03-06 17:14:06
+date:   2015-03-31 17:37:06
 categories: guides
 ---
 
