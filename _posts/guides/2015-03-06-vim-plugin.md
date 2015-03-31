@@ -117,9 +117,9 @@ map <leader>da :DoxAuthor<CR>
 
 [http://www.vim.org/scripts/script.php?script_id=2540](http://www.vim.org/scripts/script.php?script_id=2540)
 
-auto templating for code sniplets. type <tab> after keywords such as "for", "if".
+auto templating for code sniplets. type tab after keywords such as "for", "if".
 
-The script is modified for compatibility with NeoComplCache. When the auto-completion pops, <tab> rotate around the candidates, otherwise, it triggers sniplet templates.
+The script is modified for compatibility with NeoComplCache. When the auto-completion pops, tab rotate around the candidates, otherwise, it triggers sniplet templates.
 
 {% highlight vim %}
 fun! TriggerSnippet()
@@ -190,7 +190,7 @@ after compilation, e.g. :make, :cn to trigger the fix window
 
 [http://ctags.sourceforge.net/](http://ctags.sourceforge.net/)
 
-F6 to generate the tags file. this is essential for C-] jumps to definition
+F6 to generate the tags file. this is essential for C-] jumps to definition. Note that for MAC OS has a shipped ctags version that cannot support the command, so use macports or homebrew to install the excuberant ctags accordingly.
 
 {% highlight vim %}
 map <F6> <ESC>:wall<CR>:!ctags -R --c++-kinds=+p --fields=+ialS --extra=+q --langmap=c++:+.cu<CR>
