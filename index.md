@@ -47,7 +47,7 @@ Baseband R&D Engineer: Developed a TD-LTE downlink demo platform and conducted s
 ### OTHER PROJECTS
 **Friend recommendation service in distributed social network:** implemented a basic friend recommendation module on Diaspora*. Further study the policy extension using simulation on Facebook dataset. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3695&authkey=!AE1jnDwtAQt59II&ithint=file%2cpdf) [src](https://github.com/autchen/diaspora)
 
-**Cross-proximity probabilistic modeling of actor behavior:** designed a link prediction algorithm for dynamic social networks based on a dual hidden Markov model (HMM) coupled with diversified influence factors. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3272&authkey=!AJ834RwxkOOf5rk&ithint=file%2cpdf)
+**Cross-proximity probabilistic modeling of actor behavior:** designed a link prediction algorithm for dynamic social networks based on a dual hidden Markov model (HMM) coupled with diversified influence factors. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3272&authkey=!AJ834RwxkOOf5rk&ithint=file%2cpdf) [src](https://github.com/autchen/turbo_hmm)
 
 **Malware detection from system call sequences:** developed and evaluated learning based models such as replicator neural network, CFA and Bayesian net on identifying malicious programs.
 
