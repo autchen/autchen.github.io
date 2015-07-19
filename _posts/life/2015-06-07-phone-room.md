@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nice phone room for focusing"
-date:   Sat Jue 7 13:49:20 2015
+date:   Sun Jun 07 10:26:07 2015
 categories: life
 ---
 
