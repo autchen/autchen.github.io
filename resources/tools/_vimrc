@@ -1,0 +1,331 @@
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vundle Plugins
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set nocompatible
+filetype off        " required
+
+" Set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Alternatively, pass a path where Vundle should install plugins
+" call vundle#begin('~/some/path/here')
+
+" Let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" Plugin list
+
+" https://github.com/scrooloose/nerdtree
+Plugin 'scrooloose/nerdtree'
+" https://github.com/scrooloose/nerdcommenter
+Plugin 'scrooloose/nerdcommenter'
+" https://github.com/majutsushi/tagbar
+Plugin 'majutsushi/tagbar'
+" https://github.com/vim-airline/vim-airline
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+" https://github.com/tpope/vim-fugitive
+Plugin 'tpope/vim-fugitive'
+" https://github.com/SirVer/ultisnips
+Plugin 'honza/vim-snippets'
+Plugin 'SirVer/ultisnips'
+" https://github.com/Shougo/neocomplcache.vim
+Plugin 'Shougo/neocomplcache.vim'
+" https://github.com/Rip-Rip/clang_complete
+Plugin 'Rip-Rip/clang_complete'
+Plugin 'autchen/neoclang_patch'
+" https://github.com/davidhalter/jedi-vim
+Plugin 'davidhalter/jedi-vim'
+" https://github.com/nvie/vim-flake8
+Plugin 'nvie/vim-flake8'
+" https://github.com/ctrlpvim/ctrlp.vim
+Plugin 'ctrlpvim/ctrlp.vim'
+" https://github.com/vim-scripts/a.vim
+Plugin 'vim-scripts/a.vim'
+" https://github.com/rosenfeld/conque-term
+Plugin 'rosenfeld/conque-term'
+" https://github.com/terryma/vim-multiple-cursors
+Plugin 'terryma/vim-multiple-cursors'
+" https://github.com/dkprice/vim-easygrep
+Plugin 'dkprice/vim-easygrep'
+" https://github.com/Crapworks/python_fn.vim
+Plugin 'Crapworks/python_fn.vim'
+
+call vundle#end()
+filetype plugin indent on       " required
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Basic Configurations
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Turn off backup and .swp files
+set nobackup
+set noswapfile
+
+" Always display the status line
+set laststatus=2
+
+" Code syntax
+syntax enable
+syntax on
+
+" Highlight instant search and ignore case
+set hlsearch
+set incsearch
+set ignorecase smartcase
+
+" Special chars for search pattern
+set magic
+
+" Keep a buffer hidden when it is abandoned
+set hidden
+
+" Show command inputs
+set showcmd
+
+" Show match parentheses
+set showmatch
+" set matchtime=2
+
+" Enable mouse
+set mouse=a
+
+" Set (relative) line number
+set rnu
+" set nu
+
+" Enable backspace and tab deletion
+set backspace=indent,eol,start
+set smarttab
+
+" Indention
+set autoindent
+set smartindent
+
+" Tab paddings
+set expandtab " use spaces instead of tab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set shiftround
+
+" Show cursor line and position
+set cursorline
+set ruler
+
+" Remind me to keep lines short
+set colorcolumn=81
+
+" Status line
+" set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:%l/%L%)\
+
+" Completion pop options
+set completeopt=longest,menu
+
+" code folding
+set foldmethod=indent
+set foldlevel=99        " default to unfold
+
+" Turn off beeps
+set noerrorbells
+set novisualbell
+set t_vb=
+
+" Font and scheme in GUI mode
+set guifont=menlo:h13
+" set guifont=consolas:h13
+
+" Disable GUI bars
+set guioptions-=T
+set guioptions-=m
+
+" Colorscheme
+colorscheme desert
+highlight Pmenu ctermbg=8
+highlight PmenuSel ctermbg=grey ctermfg=0
+highlight CursorLine cterm=NONE ctermbg=234 ctermfg=NONE
+highlight Colorcolumn ctermbg=238
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Key Bindings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Map the leader key
+let mapleader=','
+
+" Use jj to enter normal mode
+inoremap jj <ESC>
+
+" Use jz to refocus
+inoremap jz <ESC>zza
+
+" Move cursor around in insert mode
+imap <C-j> <Down>
+imap <C-k> <Up>
+imap <C-h> <Left>
+imap <C-l> <Right>
+
+" Jump to code block head and back
+imap <C-d> <ESC>mm[{
+inoremap <C-b> <ESC>'mA
+
+" Paste from clipboard
+inoremap <C-v> @#<ESC>h"*P/@#<CR>:noh<CR>c2l
+
+" Move between windows
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" Move between tabs
+nnoremap ]b :bnext<CR>
+nnoremap [b :bprevious<CR>
+nnoremap <leader>b <C-^>
+
+" Go over quickfix items
+nnoremap <leader>f :cn<CR>
+nnoremap <Leader>F :cp<CR>
+
+" Insert time
+nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>""
+
+" Save and close buffer
+nnoremap <F12> <ESC>:bdel<CR>
+
+" Insert a single character
+nnoremap s :exec "normal i".nr2char(getchar())."\e"<CR>
+nnoremap S :exec "normal a".nr2char(getchar())."\e"<CR>
+
+" Map space to colon
+nnoremap <Space> :
+
+" Copy to clipboard
+vnoremap <C-c> "*y
+
+" Visual mode indention
+vnoremap < <gv
+vnoremap > >gv
+
+" Toggle code paste
+set pastetoggle=<F7>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Plugin Configurations
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Nerdtree
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Toggle browser using F3 and ignore file types
+nnoremap <F3> :NERDTreeToggle<CR>
+inoremap <F3> <ESC>:NERDTreeToggle<CR>
+let NERDTreeIgnore=['\.o$', '\.d$', '\.pdb$', '\.obj', '\.pyc$']
+let NERDTreeCascadeOpenSingleChildDir=0         " disabled bug #547
+
+" Nerdcommenter
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Space between code and delim, sexy comments
+let NERDSpaceDelims=1
+let NERDCompactSexyComs=1
+
+" Tagbar
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map F4 to toggle
+nnoremap <silent> <F4> :TagbarToggle<CR>
+
+" Aireline
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable tabline and add total line count
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#fnamemod=':t'
+let g:airline#extensions#tabline#buffer_nr_show=1
+let g:airline#extensions#tabline#buffer_min_count=2
+let g:airline_section_z='%c : %l / %L %'
+" Theme
+let g:airline_theme='light'
+let g:airline_left_sep = '»'
+let g:airline_right_sep = '«'
+
+" UltiSnips
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Set key mappings
+let g:UltiSnipsExpandTrigger='<tab>'
+let g:UltiSnipsJumpForwardTrigger='<tab>'
+let g:UltiSnipsJumpBackwardTrigger='<S-tab>'
+" Compatibility with auto completion pops
+autocmd VimEnter * inoremap <expr> <tab>
+    \ pumvisible()?"<C-n>":"<C-R>=UltiSnips#ExpandSnippetOrJump()<CR>"
+
+" Neocomplcache
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:neocomplcache_enable_at_startup=1             " use neocomplcache
+let g:neocomplcache_enable_smart_case=1             " use smartcase
+let g:neocomplcache_enable_camel_case_completion=1  " use camel case
+let g:neocomplcache_enable_underbar_completion=1    " use underbar
+let g:neocomplcache_max_list=20                     " maximum candidate number
+let g:neocomplcache_enable_auto_select = 1          " auto completion pop
+let g:neocomplcache_force_overwrite_completefunc=1  " compatibility with clang
+" Define keyword
+if !exists('g:neocomplcache_keyword_patterns')
+    let g:neocomplcache_keyword_patterns = {}
+endif
+let g:neocomplcache_keyword_patterns['default'] = '\h\w*'
+" Plugin key-mappings
+inoremap <expr><CR> pumvisible()?neocomplcache#close_popup():"\<CR>"
+inoremap <expr>/ pumvisible()?neocomplcache#cancel_popup():"\/"
+inoremap <expr><BS> neocomplcache#smart_close_popup()."\<BS>"
+inoremap <expr><Up> neocomplcache#close_popup()."\<Up>"
+inoremap <expr><Down> neocomplcache#close_popup()."\<Down>"
+inoremap <expr><Left> neocomplcache#close_popup()."\<Left>"
+inoremap <expr><Right> neocomplcache#close_popup()."\<Right>"
+nnoremap <F8> :NeocomplcacheToggle<CR>
+imap <expr> ?? pumvisible()?"/<C-x><C-u>":"<C-x><C-u>"
+
+" Clang_complete
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Check and highlight errors
+autocmd FileType c,cpp,objc,objcpp,c.*,cpp.*,objc.*objcpp.*
+    \ nnoremap <buffer> <F5> :call g:ClangUpdateQuickFix()<CR>
+let g:clang_complete_copen=1
+let g:clang_user_options = '-Wall'      " turn warning on
+let g:clang_hl_errors=0
+" Parameter completion with snippets
+let g:clang_snippets=1
+let g:clang_snippets_engine='ultisnips'
+" Customize keymappings
+
+" Flake8
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Check error key map
+autocmd FileType python nnoremap <buffer> <F5> :call Flake8()<CR>
+let g:flake8_quickfix_height=10
+let g:flake8_show_in_file=0
+
+" Jedi
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Binding command keys
+let g:jedi#completions_command='<C-x><C-u>'
+let g:jedi#goto_command='<C-]>'
+
+" Ctrlp
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Default to open MRU search
+let g:ctrlp_cmd='CtrlPMRU'
+
+" A
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>aa :A<CR>
+
+" ConquerTerm
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Suppress the warning
+let g:ConqueTerm_StartMessages=0
+
+" Python_fn
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map the jump function
+autocmd FileType python noremap <buffer> [{ :PBoB<CR>k
+autocmd FileType python noremap <buffer> ]} :PEoB<CR>
