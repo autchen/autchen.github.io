@@ -3,14 +3,14 @@ title: Qiuwen-Homepage
 layout: default
 ---
 
-| <img src="resources/images/sleepy_cats.jpg" height="150" width="165"/> | Ph.D. Candidate <br> [Department of Electrical Engineering and Computer Science](http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/) <br> [Syracuse University](http://www.syr.edu/) <br> Office: Science&Technology Center 4-226, Syracuse University <br> Address: 50 Presidential Plz 2006, Syracuse, NY, 13202 <br> Email: qchen14 (at) syr (dot) edu |
+| <img src="resources/images/sleepy_cats.jpg" height="150" width="165"/> | Ph.D. Candidate <br> [Department of Electrical Engineering and Computer Science](http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/) <br> [Syracuse University](http://www.syr.edu/) <br> Office: Science&Technology Center 4-226, Syracuse University <br> Address: 50 Presidential Plz 214, Syracuse, NY, 13202 <br> Email: qchen14 (at) syr (dot) edu |
 
 <br>
 
 [Profile](#profile), [Education](#education), [Research Projects](#research-projects), [Internship](#internships), [Publications](#publications), [Other Projects](#other-projects)
 
 ### PROFILE
-I am currently a research assistant at the AMPS Lab at Syracuse University. My advisor is [Dr. Qinru Qiu](http://hydrogen.syr.edu/~qqiu/). Generally, my research interests are machine learning, cognitive applications and high performance computing on heterogeneous systems. In particular, I am working on anomaly detections using neuromorphic models as well as their acceleration and scalability. 
+I am currently a research assistant at the AMPS Lab at Syracuse University. My advisor is [Dr. Qinru Qiu](http://hydrogen.syr.edu/~qqiu/). Generally, my research interests are machine learning, cognitive applications and high performance computing on heterogeneous systems. In particular, I have been working on real-time anomaly detection using inference model and their GPU accelerations. I am currently working on visual-semantic modeling between deep image features and loosely correlated texts.
 
 ### EDUCATION
 * Ph.D. in Computer Engineering, Syracuse University, Present
@@ -19,33 +19,40 @@ I am currently a research assistant at the AMPS Lab at Syracuse University. My a
 First class honours degree
 
 ### RESEARCH PROJECTS
+**Bidirectional mapping between deep image and noisy texts**
+Design visual-semantic retrieval model for loosely coupled text-image pairs such as picture news. Cascade fragment embedding stages to remove noisy texts and improve learning efficiency. Integrate deep face network for better news event correlation.
+
 **Neuromorphic framework for real-time anomalous stream detection**   
-Developing a self-modeling knowledge network that provides continuous traffic monitoring and prompt anomaly detection/reasoning for massive concurrent data streams. Adopting cogent confabulation and layered feature hierarchy that mimic human cognition. Building prototype system on heterogeneous multicore platform with GPGPUs and MIC co-processors.
+Develop a self-structuring knowledge network that provides continuous traffic monitoring and prompt anomaly detection/reasoning for massive concurrent data streams. Implement on heterogeneous multicore platform with GPGPUs and Xeon Phi co-processors.
 
 **Context-aware smartphone low power design**   
-Learned battery consumption patterns from user behaviors to support control decisions that save device power while maintaining QoS.
+Learn battery consumption patterns from user behaviors to support control decisions that save device power while maintaining QoS.
 
 **Intelligent Text Recognition System**   
-Studying statistical inference based sentence completion model, coupled with BSB pattern matching to provide machines strong reading/synthesizing ability.
+Study statistical inference based sentence completion model, coupled with BSB pattern matching to provide machines strong reading/synthesizing ability.
 
 ### INTERNSHIPS
+**Microsoft, Redmond, WA, USA, May 2015 - Aug 2015**
+SWE Intern: Develop intelligent retransmission pipeline for Skype media stack. Participate Bing Ads click-through prediction hachathon.
+
 **Alcatel-Lucent, Beijing, China, Jan 2012 - Apr 2012**  
-Software Engineer: Developed and maintained wireless network elements management software. Ported C/C++ programs from Solaris to Linux servers.
+SWE Intern: Develop and maintain wireless network elements management software. Ported C/C++ programs from Solaris to Linux servers.
 
 **Potevio Institute of Technology, Beijing, China, May 2010 - Jan 2011**  
-Baseband R&D Engineer: Developed a TD-LTE downlink demo platform and conducted system integration tests. Designed and programmed baseband processing modules and an on-chip protocol stack.
+Baseband Engineer Intern: Develop a TD-LTE downlink demo platform and conducted system integration tests. Implement baseband processing modules and an on-chip protocol stack.
 
 ### PUBLICATIONS
-1. **Qiuwen Chen**, Qing Wu, Morgan Bishop, Richard Linderman and Qinru Qiu, "Self-structured Confabulation Network for Fast Anomaly Detection and Reasoning", IJCNN'2015. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3654&authkey=!ADrNaUvbpNEDP7o&ithint=file%2cpdf)
-2. **Qiuwen Chen**, Qinru Qiu, Qing Wu, Morgan Bishop, and Mark Barnell, "A Confabulation Model for Abnormal Vehicle Events Detection in Wide-Area Traffic Monitoring", CogSIMA'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3265&authkey=!ADQHeHMSR5-wmO0&ithint=file%2cpdf)
-3. Q. Wu, B. Liu, Y. Chen, H. Li, **Qiuwen Chen** and Qinru Qiu, "Bio-Inspired Computing with Resistive Memories - Models, Architectures and Applications", ISCAS'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3268&authkey=!ACiVk_KEeN4zHAQ&ithint=file%2cpdf)
-4. Hao Shen, **Qiuwen Chen** and Qinru Qiu, "Battery Aware Stochastic QoS Boosting in Mobile Computing Devices", DATE'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3269&authkey=!APj99oDhh_Jneys&ithint=file%2cpdf)
-5. **Qiuwen Chen**, Qinru Qiu, Hai Li and Qing Wu, "A Neuromorphic Architecture for Anomaly Detection in Autonomous Large-Area Traffic Monitoring", ICCAD'2013. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3270&authkey=!AHVWAC2oTla_E3E&ithint=file%2cpdf)
-6. **Qiuwen Chen**, Z. Wu, Hao Jin, "A Multi-user Cooperation Scheme based on Component Demodulation", ICCTA'2011. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3266&authkey=!ANVG-RIklHd7W8s&ithint=file%2cpdf)
-7. **Qiuwen Chen**, "Enhanced Turbo Network Coding with Additional Error Protection by Hybrid Iterative Decoding", ICCSN'2011. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3267&authkey=!AACW7Jc4CU0PXao&ithint=file%2cpdf)
+1. **Qiuwen Chen** and Qinru Qiu, "Enhancing Bidirectional Association between Deep Image Representations and Loosely Correlated Texts", IJCNN'2016. [pdf](https://onedrive.live.com/redir?resid=731DFD14FE9CFC26!5547&authkey=!AM3a-U1Pr0INN_8&ithint=file%2cpdf)
+2. **Qiuwen Chen**, Qing Wu, Morgan Bishop, Richard Linderman and Qinru Qiu, "Self-structured Confabulation Network for Fast Anomaly Detection and Reasoning", IJCNN'2015. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3654&authkey=!ADrNaUvbpNEDP7o&ithint=file%2cpdf)
+3. **Qiuwen Chen**, Qinru Qiu, Qing Wu, Morgan Bishop, and Mark Barnell, "A Confabulation Model for Abnormal Vehicle Events Detection in Wide-Area Traffic Monitoring", CogSIMA'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3265&authkey=!ADQHeHMSR5-wmO0&ithint=file%2cpdf)
+4. Q. Wu, B. Liu, Y. Chen, H. Li, **Qiuwen Chen** and Qinru Qiu, "Bio-Inspired Computing with Resistive Memories - Models, Architectures and Applications", ISCAS'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3268&authkey=!ACiVk_KEeN4zHAQ&ithint=file%2cpdf)
+5. Hao Shen, **Qiuwen Chen** and Qinru Qiu, "Battery Aware Stochastic QoS Boosting in Mobile Computing Devices", DATE'2014. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3269&authkey=!APj99oDhh_Jneys&ithint=file%2cpdf)
+6. **Qiuwen Chen**, Qinru Qiu, Hai Li and Qing Wu, "A Neuromorphic Architecture for Anomaly Detection in Autonomous Large-Area Traffic Monitoring", ICCAD'2013. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3270&authkey=!AHVWAC2oTla_E3E&ithint=file%2cpdf)
+7. **Qiuwen Chen**, Z. Wu, Hao Jin, "A Multi-user Cooperation Scheme based on Component Demodulation", ICCTA'2011. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3266&authkey=!ANVG-RIklHd7W8s&ithint=file%2cpdf)
+8. **Qiuwen Chen**, "Enhanced Turbo Network Coding with Additional Error Protection by Hybrid Iterative Decoding", ICCSN'2011. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3267&authkey=!AACW7Jc4CU0PXao&ithint=file%2cpdf)
 
 ### OTHER PROJECTS
-**Friend recommendation service in distributed social network:** implemented a basic friend recommendation module on Diaspora*. Further study the policy extension using simulation on Facebook dataset. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3695&authkey=!AE1jnDwtAQt59II&ithint=file%2cpdf) [src](https://github.com/autchen/diaspora)
+**Friend recommendation service in distributed social network:** implemented a basic friend recommendation module on Diaspora. Further study the policy extension using simulation on Facebook dataset. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3695&authkey=!AE1jnDwtAQt59II&ithint=file%2cpdf) [src](https://github.com/autchen/diaspora)
 
 **Cross-proximity probabilistic modeling of actor behavior:** designed a link prediction algorithm for dynamic social networks based on a dual hidden Markov model (HMM) coupled with diversified influence factors. [pdf](https://onedrive.live.com/redir?resid=731dfd14fe9cfc26!3272&authkey=!AJ834RwxkOOf5rk&ithint=file%2cpdf) [src](https://github.com/autchen/turbo_hmm)
 
