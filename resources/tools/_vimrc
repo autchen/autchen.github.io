@@ -144,10 +144,10 @@ set guioptions-=m
 
 " Colorscheme
 colorscheme desert
-highlight Pmenu ctermbg=8
-highlight PmenuSel ctermbg=grey ctermfg=0
-highlight CursorLine cterm=NONE ctermbg=234 ctermfg=NONE
-highlight Colorcolumn ctermbg=238
+" highlight Pmenu ctermbg=8
+" highlight PmenuSel ctermbg=grey ctermfg=0
+" highlight CursorLine cterm=NONE ctermbg=234 ctermfg=NONE
+" highlight Colorcolumn ctermbg=238
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Key Bindings
@@ -194,7 +194,7 @@ nnoremap <Leader>F :cp<CR>
 nnoremap <F2> a<C-R>=strftime("%c")<CR><Esc>""
 
 " Save and close buffer
-nnoremap <F12> <ESC>:bdel<CR>
+nnoremap <F12> <ESC>:vsp<CR>:bnext<CR><C-w>w:bdel<CR>
 
 " Insert a single character
 nnoremap s :exec "normal i".nr2char(getchar())."\e"<CR>
