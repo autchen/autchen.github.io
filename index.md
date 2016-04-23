@@ -3,7 +3,7 @@ title: Qiuwen-Homepage
 layout: default
 ---
 
-| <img src="resources/images/sleepy_cats.jpg" height="150" width="165"/> | Ph.D. Candidate <br> [Department of Electrical Engineering and Computer Science](http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/) <br> [Syracuse University](http://www.syr.edu/) <br> Office: Science&Technology Center 4-226, Syracuse University <br> Address: 50 Presidential Plz 214, Syracuse, NY, 13202 <br> Email: qchen14 (at) syr (dot) edu |
+| <img src="resources/images/lol_fox.gif" height="133" width="165"/> | Ph.D. Candidate <br> [Department of Electrical Engineering and Computer Science](http://eng-cs.syr.edu/our-departments/electrical-engineering-and-computer-science/) <br> [Syracuse University](http://www.syr.edu/) <br> Office: Science&Technology Center 4-226, Syracuse University <br> Address: 50 Presidential Plz 214, Syracuse, NY, 13202 <br> Email: qchen14 (at) syr (dot) edu |
 
 <br>
 
